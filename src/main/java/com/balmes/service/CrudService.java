@@ -3,7 +3,7 @@ package com.balmes.service;
 import java.util.List;
 import java.util.Optional;
 
-public interface crudService<T> {
+public interface CrudService<T> {
 
 	List<T> list();
 
