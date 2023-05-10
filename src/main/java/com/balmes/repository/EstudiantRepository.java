@@ -15,10 +15,10 @@ public class EstudiantRepository implements CrudRepository<Estudiant> {
     CursRepository cursRepository = new CursRepository();
     final List<Curs> allCursos = cursRepository.findAll();
     estudiantList.add(new Estudiant(1, "Ahmad", "Bryden", allCursos.get(1)));
-    estudiantList.add(new Estudiant(2, "Web", "Dreier", allCursos.get(1)));
+    estudiantList.add(new Estudiant(2, "Web", "Dreier", allCursos.get(0)));
     estudiantList.add(new Estudiant(3, "Ardisj", "Abramowitch", allCursos.get(1)));
     estudiantList.add(new Estudiant(4, "Laurena", "Abrahami", allCursos.get(1)));
-    estudiantList.add(new Estudiant(5, "Jacinthe", "Hancox", allCursos.get(1)));
+    estudiantList.add(new Estudiant(5, "Jacinthe", "Hancox", allCursos.get(0)));
     estudiantList.add(new Estudiant(6, "Nadeen", "Veregan", allCursos.get(1)));
     estudiantList.add(new Estudiant(7, "Jonas", "Beedell", allCursos.get(0)));
     estudiantList.add(new Estudiant(8, "Delcina", "Sesnane", allCursos.get(1)));
